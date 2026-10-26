@@ -1,0 +1,13 @@
+[project]
+name = "day12"
+version = "0.1.0"
+description = "Text embeddings example"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.26.0",
+    "python-dotenv>=1.2.4",
+    "sentence-transformers>=3.0.0",
+]
+
+[tool.uv]
+package = false
